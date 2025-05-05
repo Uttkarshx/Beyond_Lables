@@ -1,0 +1,274 @@
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Header Styles */
+  .o_header_standard {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+  }
+  
+  .navbar-brand img {
+    max-height: 40px;
+  }
+  
+  .top_menu .nav-link {
+    padding: 1rem;
+    font-weight: 500;
+  }
+  
+  .top_menu .nav-link.active {
+    color: #007bff;
+  }
+  
+  /* Banner Section */
+  .s_banner {
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .s_banner h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  /* Text Block Sections */
+  .s_text_block {
+    padding: 60px 0;
+  }
+  
+  .s_text_block .o_small {
+    color: #6c757d;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+  }
+  
+  .s_text_block h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Key Images Section */
+  .s_key_images {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  .s_key_images h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .s_key_images h4 {
+    font-size: 1.25rem;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .s_key_images .lead {
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  /* Features Section */
+  .s_features {
+    padding: 60px 0;
+  }
+  
+  .s_features h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .s_features .lead {
+    color: #6c757d;
+    margin-bottom: 3rem;
+  }
+  
+  .s_features_icon {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Testimonials Carousel */
+  .s_quotes_carousel {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .s_blockquote_quote {
+    font-style: italic;
+    color: #333;
+  }
+  
+  .s_blockquote_icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .s_blockquote_avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+  }
+  
+  /* FAQ Section */
+  .s_faq_collapse {
+    padding: 60px 0;
+  }
+  
+  .s_faq_collapse h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .accordion-button {
+    font-weight: 600;
+    padding: 1.5rem 0;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #007bff;
+    background-color: transparent;
+  }
+  
+  .accordion-body {
+    padding: 0 0 1.5rem;
+  }
+  
+  /* CTA Section */
+  .s_cta_box {
+    padding: 60px 0;
+  }
+  
+  .s_cta_box h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 0.75rem 2rem;
+    font-weight: 500;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  /* Footer Styles */
+  .o_footer {
+    background-color: #f8f9fa;
+    padding: 60px 0 0;
+  }
+  
+  .o_footer h5 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .o_footer ul li {
+    margin-bottom: 0.75rem;
+  }
+  
+  .s_social_media i {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+    color: #fff;
+    background-color: #007bff;
+  }
+  
+  .o_footer_copyright {
+    background-color: #e9ecef;
+    padding: 20px 0;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 992px) {
+    .s_banner h1 {
+      font-size: 3rem;
+    }
+    
+    .s_text_block h2 {
+      font-size: 2rem;
+    }
+    
+    .s_cta_box h2 {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .s_banner {
+      padding: 60px 0;
+    }
+    
+    .s_banner h1 {
+      font-size: 2.5rem;
+    }
+    
+    .s_blockquote_quote {
+      font-size: 1.25rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .s_banner h1 {
+      font-size: 2rem;
+    }
+    
+    .s_text_block h2,
+    .s_features h3,
+    .s_key_images h3 {
+      font-size: 1.75rem;
+    }
+    
+    .s_cta_box h2 {
+      font-size: 1.5rem;
+    }
+  }
