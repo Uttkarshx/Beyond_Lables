@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smile Foundation Navigation</title>
+<style>
+  /* Basic styling for the navigation bar */
+  nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li {
+    float: left;
+    position: relative;
+  }
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  /* Styling for dropdown menus */
+  nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    min-width: 200px;
+    z-index: 1;
+  }
+  nav ul li:hover > ul {
+    display: block;
+  }
+  nav ul li ul li {
+    float: none;
+  }
+  nav ul li ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  nav ul li ul li a:hover {
+    background-color: #111;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#">About Us</a>
+      <ul>
+        <li><a href="#">About Smile Foundation</a></li>
+        <li><a href="#">People Behind Smile</a>
+          <ul>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Mentors</a></li>
+            <li><a href="#">Our People</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Impact</a></li>
+        <li><a href="#">Reach & Presence</a></li>
+        <li><a href="#">Civic Driven Change</a></li>
+        <li><a href="#">Smilestones</a></li>
+        <li><a href="#">Good Governance</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Our Work</a>
+      <ul>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Health</a></li>
+        <li><a href="#">Livelihood</a></li>
+        <li><a href="#">Women Empowerment</a></li>
+        <li><a href="#">Disaster Response</a></li>
+        <li><a href="#">Empowering Grassroots</a></li>
+        <li><a href="#">Privileged Children</a>
+          <ul>
+            <li><a href="#">Child For Child</a></li>
+            <li><a href="#">Siffcy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">Campaigns</a>
+      <ul>
+        <li><a href="#">Shiksha Na Ruke</a></li>
+        <li><a href="#">Health Cannot Wait</a></li>
+        <li><a href="#">She Can Fly</a></li>
+        <li><a href="#">Swabhiman</a></li>
+        <li><a href="#">Tayyari Kal Ki</a></li>
+        <li><a href="#">Disaster Response</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Get Involved</a>
+      <ul>
+        <li><a href="#">Individual Support</a></li>
+        <li><a href="#">Corporate Partnerships</a>
+          <ul>
+            <li><a href="#">Corporate Social Responsibility</a></li>
+            <li><a href="#">Cause Marketing & Events</a></li>
+            <li><a href="#">Employee Engagement</a></li>
+            <li><a href="#">Payroll Giving</a></li>
+          </ul>
+        </li>
+        <li><a href="#">School Partnerships</a></li>
+        <li><a href="#">Volunteers</a></li>
+        <li><a href="#">Work With Us</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Media Centre</a>
+      <ul>
+        <li><a href="#">Press Releases</a></li>
+        <li><a href="#">Print/Online Media</a></li>
+        <li><a href="#">Electronic Media</a></li>
+        <li><a href="#">Workshops & Events</a></li>
+        <li><a href="#">Eminent Personalities</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Resource Center</a>
+      <ul>
+        <li><a href="#">The Smile Blog</a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">Annual Report</a></li>
+        <li><a href="#">Films</a></li>
+        <li><a href="#">Stories Of Change</a></li>
+        <li><a href="#">Perspective</a>
+          <ul>
+            <li><a href="#">Child Rights</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><a href="#">Contact Us</a>
+      <ul>
+        <li><a href="#">Get In Touch</a></li>
+        <li><a href="#">FAQs</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+</body>
+</html>
